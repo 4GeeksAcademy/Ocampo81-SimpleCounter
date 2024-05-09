@@ -7,8 +7,4 @@ import { Counter } from "./component/Counter";
 import "../styles/index.css";
 
 
-function renderCounter() {
-  ReactDOM.render(<Counter />, document.getElementById('app'));
-}
-
-setInterval(renderCounter, 1000);
+ReactDOM.render(<Counter />, document.getElementById('app'));
