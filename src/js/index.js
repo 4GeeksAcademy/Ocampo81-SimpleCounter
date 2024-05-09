@@ -11,4 +11,4 @@ function renderCounter() {
   ReactDOM.render(<Counter />, document.getElementById('app'));
 }
 
-setInterval(renderCounter, 1000); // Actualiza el contador cada segundo
+setInterval(renderCounter, 1000);
