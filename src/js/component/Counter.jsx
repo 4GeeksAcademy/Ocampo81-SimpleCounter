@@ -5,13 +5,13 @@ export function Counter() {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setNumber(prevNumber => prevNumber + 1);
+      setNumber(prev => prev + 1);
     }, 1000);
 
     return () => clearInterval(interval);
   }, []);
 
-  const digits = number.toString().padStart(6, '0').split('');
+  const digits = number.toString().padStart(6, "0").split("");
 
   return (
     <div className="container">
