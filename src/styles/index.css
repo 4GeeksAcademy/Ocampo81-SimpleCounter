@@ -5,11 +5,19 @@
   height: 100vh;
 }
 
+
 .counter {
   display: flex;
-  background-color: black; 
-  padding: 20px; 
+  background-color: black;
+  padding: 20px;
   position: relative;
+  color: white; 
+}
+
+.digits {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .digit {
@@ -23,12 +31,13 @@
   justify-content: center;
   align-items: center;
   font-size: 2rem;
+  color: black; 
 }
 
+/* Estilos para el icono del reloj */
 .clock-icon {
-
-  font-size: 2rem; 
-  color: white; 
-  margin-right: 10px; 
+  font-size: 2rem;
+  margin-right: 10px;
   margin-top: 15px;
+  color: white; /* Cambia el color del icono a blanco */
 }
