@@ -34,10 +34,9 @@
   color: black; 
 }
 
-/* Estilos para el icono del reloj */
 .clock-icon {
   font-size: 2rem;
   margin-right: 10px;
   margin-top: 15px;
-  color: white; /* Cambia el color del icono a blanco */
+  color: white; 
 }
